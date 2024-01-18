@@ -1,0 +1,8 @@
+/* maxbredd på hela webbplatsen */
+#main-container {
+
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    background-color: var(--white);
+}

@@ -1,2 +1,10 @@
 /* /Layout/MainLayout.razor.rz.scp.css */
+/* maxbredd på hela webbplatsen */
+#main-container[b-jvc7nchcmq] {
+
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    background-color: var(--white);
+}
 /* /Layout/NavMenu.razor.rz.scp.css */

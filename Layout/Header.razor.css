@@ -1,0 +1,21 @@
+#header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--blue);
+    color: var(--white);
+    
+  
+}
+
+h1{
+  
+    font-size: 4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 15px;
+}
+p {
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-right: 15px;
+}
