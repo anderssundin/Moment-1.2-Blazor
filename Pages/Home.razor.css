@@ -1,11 +1,11 @@
-h1{
+h1 {
     text-align: center;
     margin-top: 50px;
 }
 
 section {
     border-radius: 4px;
-    box-shadow: 1px 1px 4px;
+    box-shadow: 2px 2px 4px grey;
     width: 80%;
     margin: auto;
     margin-top: 50px;
@@ -13,5 +13,5 @@ section {
     background-color: var(--box);
     color: var(--white);
     margin-bottom: 50px;
-   
+
 }

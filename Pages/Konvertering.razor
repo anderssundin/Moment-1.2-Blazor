@@ -1,3 +1,48 @@
 @page "/konvertering"
 
 <h1>Konvertering</h1>
+
+<section id="length">
+    <div id="length-inner">
+        <h3>Meter => Feet</h3>
+        <br>
+        <input type="number" placeholder="Ange meter" @bind="meter" /> <span class="equal">=</span>
+        <div class="answer">
+            <p>@convertedFeet feet</p>
+        </div>
+    </div>
+    <button @onclick="konvertMeter">Beräkna</button>
+</section>
+<section id="speed">
+    <div id="length-inner">
+        <h3>Km/h => Miles/h</h3>
+        <br>
+        <input type="number" placeholder="Ange km/h" @bind="kmh"> <span class="equal">=</span>
+        <div class="answer">
+            <p>@convertedMph mph</p>
+        </div>
+    </div>
+    <button @onclick="konvertSpeed">Beräkna</button>
+</section>
+
+@code {
+
+    //Konvertera meter till feet
+    private double convertedFeet = 0;
+    private double meter = 0;
+    private void konvertMeter()
+    {
+        // Omvandlingsformel, avrunda till 2 decimaler
+          convertedFeet = Math.Round(meter * 3.2808, 1);
+    }
+
+    //Konvertera km/h till mph
+    private double kmh = 0;
+    private double convertedMph = 0;
+
+    private void konvertSpeed()
+    {
+        // Omvandlingsformel, gör till heltal
+        convertedMph = Math.Round((int)kmh* 0.62137);
+    }
+}

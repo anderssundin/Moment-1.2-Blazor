@@ -78,14 +78,14 @@ nav[b-4k2hg2hqew] {
     border-radius: 4px;
 }
 /* /Pages/Home.razor.rz.scp.css */
-h1[b-9zy9cq7ykm]{
+h1[b-9zy9cq7ykm] {
     text-align: center;
     margin-top: 50px;
 }
 
 section[b-9zy9cq7ykm] {
     border-radius: 4px;
-    box-shadow: 1px 1px 4px;
+    box-shadow: 2px 2px 4px grey;
     width: 80%;
     margin: auto;
     margin-top: 50px;
@@ -93,5 +93,52 @@ section[b-9zy9cq7ykm] {
     background-color: var(--box);
     color: var(--white);
     margin-bottom: 50px;
-   
+
+}
+/* /Pages/Konvertering.razor.rz.scp.css */
+h1[b-v1d1jhefd0]{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+section[b-v1d1jhefd0] {
+    width: 80%;
+    margin: auto;
+    background-color: var(--box);
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+  
+    box-shadow: 2px 2px 4px grey;
+}
+
+#length-inner[b-v1d1jhefd0] {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+}
+button[b-v1d1jhefd0]{
+    display: flex;
+    background-color: var(--blueActive);
+    border: none;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    margin: auto;
+    color: var(--white);
+    cursor: pointer;
+    
+}
+
+input[b-v1d1jhefd0]{
+    height: 1.8rem;
+    text-align: center;
+}
+
+.answer[b-v1d1jhefd0]{
+    background-color: var(--blue);
+    padding: 10px 20px;
+    color: var(--white);
+    border-radius: 4px;
 }
