@@ -1,10 +1,97 @@
+/* /Layout/Footer.razor.rz.scp.css */
+footer[b-63innyn7nu]{
+    background-color: var(--blue);
+    padding: 30px;
+    color: var(--white);
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+}
+/* /Layout/Header.razor.rz.scp.css */
+#header-container[b-on1knhe9u4]{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--blue);
+    color: var(--white);
+    
+  
+}
+
+h1[b-on1knhe9u4]{
+  
+    font-size: 4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+p[b-on1knhe9u4] {
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-right: 15px;
+}
 /* /Layout/MainLayout.razor.rz.scp.css */
 /* maxbredd på hela webbplatsen */
 #main-container[b-jvc7nchcmq] {
-
+    position: relative;
     width: 100%;
     max-width: 1024px;
     margin: auto;
     background-color: var(--white);
+    box-shadow: 0px 2px 20px;
+    border-radius: 0 0 4px 4px;
+
 }
 /* /Layout/NavMenu.razor.rz.scp.css */
+nav[b-4k2hg2hqew] {
+    background-color: var(--blue);
+    color: var(--white);
+    display: flex;
+    justify-content: end;
+    padding-bottom: 10px;
+   
+   
+}
+
+.link[b-4k2hg2hqew] {
+    margin-right: 50px;
+    
+}
+
+[b-4k2hg2hqew] a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--white);
+    padding: 5px;
+    transition: all .3s;
+   
+}
+
+[b-4k2hg2hqew] a:hover{
+    background-color: var(--blueHover);
+    border-radius: 4px;
+}
+
+
+
+[b-4k2hg2hqew] .active{
+    background-color:var(--blueActive);
+    border-radius: 4px;
+}
+/* /Pages/Home.razor.rz.scp.css */
+h1[b-9zy9cq7ykm]{
+    text-align: center;
+    margin-top: 50px;
+}
+
+section[b-9zy9cq7ykm] {
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: var(--box);
+    color: var(--white);
+    margin-bottom: 50px;
+   
+}

@@ -1,4 +1,7 @@
 footer{
+    background-color: var(--blue);
+    padding: 30px;
+    color: var(--white);
     text-align: center;
-    
+    border-radius: 0 0 4px 4px;
 }

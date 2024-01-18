@@ -1,8 +1,11 @@
 /* maxbredd på hela webbplatsen */
 #main-container {
-
+    position: relative;
     width: 100%;
     max-width: 1024px;
     margin: auto;
     background-color: var(--white);
+    box-shadow: 0px 2px 20px;
+    border-radius: 0 0 4px 4px;
+
 }
