@@ -1,0 +1,35 @@
+nav[b-4k2hg2hqew] {
+    background-color: var(--blue);
+    color: var(--white);
+    display: flex;
+    justify-content: end;
+    padding-bottom: 10px;
+   
+   
+}
+
+.link[b-4k2hg2hqew] {
+    margin-right: 50px;
+    
+}
+
+[b-4k2hg2hqew] a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--white);
+    padding: 5px;
+    transition: all .3s;
+   
+}
+
+[b-4k2hg2hqew] a:hover{
+    background-color: var(--blueHover);
+    border-radius: 4px;
+}
+
+
+
+[b-4k2hg2hqew] .active{
+    background-color:var(--blueActive);
+    border-radius: 4px;
+}

@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+section {
+    width: 80%;
+    margin: auto;
+    background-color: var(--box);
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+  
+    box-shadow: 2px 2px 4px grey;
+}
+
+#length-inner {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+}
+button{
+    display: flex;
+    background-color: var(--blueActive);
+    border: none;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    margin: auto;
+    color: var(--white);
+    cursor: pointer;
+    
+}
+
+input{
+    height: 1.8rem;
+    text-align: center;
+}
+
+.answer{
+    background-color: var(--blue);
+    padding: 10px 20px;
+    color: var(--white);
+    border-radius: 4px;
+}

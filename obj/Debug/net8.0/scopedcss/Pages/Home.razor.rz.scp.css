@@ -1,0 +1,17 @@
+h1[b-9zy9cq7ykm] {
+    text-align: center;
+    margin-top: 50px;
+}
+
+section[b-9zy9cq7ykm] {
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px grey;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: var(--box);
+    color: var(--white);
+    margin-bottom: 50px;
+
+}

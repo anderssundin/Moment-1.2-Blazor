@@ -1,0 +1,26 @@
+/* Ta bort error elementet */
+#blazor-error-ui {
+    display: none;
+}
+
+:root {
+    --blue: #2F5061;
+    --blueHover: #54c0f690;
+    --blueActive: #2f617a;
+    --white: #F4EAE6;
+    --box: #4297A0;
+
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(66, 151, 160, 1) 45%, rgba(229, 127, 132, 1) 100%);
+}
+
+/* Bestäm font */
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
