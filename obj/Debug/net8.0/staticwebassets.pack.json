@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ander\\OneDrive - Mittuniversitetet\\Skrivbordet\\Webbutveckling\\_Termin 4 VT24\\DT 191G Webbutveckling med .NET\\Moment 1.2 Blazor\\Moment 1.2 Blazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\ander\\OneDrive - Mittuniversitetet\\Skrivbordet\\Webbutveckling\\_Termin 4 VT24\\DT 191G Webbutveckling med .NET\\Moment 1.2 Blazor\\Moment 1.2 Blazor\\obj\\Debug\\net8.0\\compressed\\u1cypfjz58.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\ander\\OneDrive - Mittuniversitetet\\Skrivbordet\\Webbutveckling\\_Termin 4 VT24\\DT 191G Webbutveckling med .NET\\Moment 1.2 Blazor\\Moment 1.2 Blazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Moment 1.2 Blazor.styles.css",
+      "PackagePath": "staticwebassets\\Moment 1.2 Blazor.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\ander\\OneDrive - Mittuniversitetet\\Skrivbordet\\Webbutveckling\\_Termin 4 VT24\\DT 191G Webbutveckling med .NET\\Moment 1.2 Blazor\\Moment 1.2 Blazor\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\ander\\OneDrive - Mittuniversitetet\\Skrivbordet\\Webbutveckling\\_Termin 4 VT24\\DT 191G Webbutveckling med .NET\\Moment 1.2 Blazor\\Moment 1.2 Blazor\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\ander\\OneDrive - Mittuniversitetet\\Skrivbordet\\Webbutveckling\\_Termin 4 VT24\\DT 191G Webbutveckling med .NET\\Moment 1.2 Blazor\\Moment 1.2 Blazor\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\ander\\OneDrive - Mittuniversitetet\\Skrivbordet\\Webbutveckling\\_Termin 4 VT24\\DT 191G Webbutveckling med .NET\\Moment 1.2 Blazor\\Moment 1.2 Blazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\ander\\OneDrive - Mittuniversitetet\\Skrivbordet\\Webbutveckling\\_Termin 4 VT24\\DT 191G Webbutveckling med .NET\\Moment 1.2 Blazor\\Moment 1.2 Blazor\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\ander\\OneDrive - Mittuniversitetet\\Skrivbordet\\Webbutveckling\\_Termin 4 VT24\\DT 191G Webbutveckling med .NET\\Moment 1.2 Blazor\\Moment 1.2 Blazor\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\ander\\OneDrive - Mittuniversitetet\\Skrivbordet\\Webbutveckling\\_Termin 4 VT24\\DT 191G Webbutveckling med .NET\\Moment 1.2 Blazor\\Moment 1.2 Blazor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\ander\\OneDrive - Mittuniversitetet\\Skrivbordet\\Webbutveckling\\_Termin 4 VT24\\DT 191G Webbutveckling med .NET\\Moment 1.2 Blazor\\Moment 1.2 Blazor\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "C:\\Users\\ander\\OneDrive - Mittuniversitetet\\Skrivbordet\\Webbutveckling\\_Termin 4 VT24\\DT 191G Webbutveckling med .NET\\Moment 1.2 Blazor\\Moment 1.2 Blazor\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Moment 1.2 Blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Moment 1.2 Blazor.props",
+      "PackagePath": "build\\Moment 1.2 Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Moment 1.2 Blazor.props",
+      "PackagePath": "buildMultiTargeting\\Moment 1.2 Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Moment 1.2 Blazor.props",
+      "PackagePath": "buildTransitive\\Moment 1.2 Blazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
