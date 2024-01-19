@@ -15,8 +15,13 @@ h1{
     padding-left: 15px;
     padding-top: 30px;
 }
-p {
-    font-size: 2rem;
-    font-family: 'Josefin Sans', sans-serif;
-    padding-right: 15px;
+
+
+::deep a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--white);
+    padding: 5px;
+    transition: all .3s;
+   
 }

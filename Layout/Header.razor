@@ -1,37 +1,8 @@
 <section id="header-container">
-    <h1>Blazor</h1>
-    @if (weatherResponse != null && weatherResponse.Main != null && weatherResponse.Main.Temp.HasValue)
-    {
-        <p>Falun @((int)Math.Round(weatherResponse.Main.Temp.Value))°C</p>
-    }
-    else
-    {
-        <p>Laddar temperatur...</p>
-    }
+   <NavLink href="/"> <h1>Blazor</h1></NavLink>
+   <Temperatur />
+   
+    
 </section>
 
 
-@code {
-    @inject HttpClient Http;
-
-    private WeatherResponse? weatherResponse;
-
-    protected override async Task OnInitializedAsync()
-    {
-        weatherResponse = await
-        Http.GetFromJsonAsync<WeatherResponse>("https://api.openweathermap.org/data/2.5/weather?lat=60.512246783300775&lon=15.713584189044955&appid=c8c86723106ab4132f4983234bad5e95&units=metric");
-    
-    }
-
-// Skapar modell för att spara temp och från api->main->temp
-    public class WeatherResponse
-    {
-        public Main? Main { set; get; }
-    }
-
-    public class Main
-    {
-        public double? Temp { set; get; }
-        
-    }
-}

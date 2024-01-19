@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ander/OneDrive - Mittuniversitetet/Skrivbordet/Webbutveckling/_Termin 4 VT24/DT 191G Webbutveckling med .NET/Moment 1.2 Blazor/Moment 1.2 Blazor/Komponenter/Temperatur.razor]
+build_metadata.AdditionalFiles.TargetPath = S29tcG9uZW50ZXJcVGVtcGVyYXR1ci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-7e7y1icub8
+
 [C:/Users/ander/OneDrive - Mittuniversitetet/Skrivbordet/Webbutveckling/_Termin 4 VT24/DT 191G Webbutveckling med .NET/Moment 1.2 Blazor/Moment 1.2 Blazor/Layout/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-63innyn7nu
@@ -54,6 +58,6 @@ build_metadata.AdditionalFiles.CssScope = b-9zy9cq7ykm
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS29udmVydGVyaW5nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-v1d1jhefd0
 
-[C:/Users/ander/OneDrive - Mittuniversitetet/Skrivbordet/Webbutveckling/_Termin 4 VT24/DT 191G Webbutveckling med .NET/Moment 1.2 Blazor/Moment 1.2 Blazor/Pages/Trafik.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhZmlrLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-hruav2kkjy
+[C:/Users/ander/OneDrive - Mittuniversitetet/Skrivbordet/Webbutveckling/_Termin 4 VT24/DT 191G Webbutveckling med .NET/Moment 1.2 Blazor/Moment 1.2 Blazor/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-t4qibp32n9

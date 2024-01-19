@@ -33,3 +33,16 @@ nav[b-4k2hg2hqew] {
     background-color:var(--blueActive);
     border-radius: 4px;
 }
+
+@media (max-width: 600px) {
+
+    nav[b-4k2hg2hqew]{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+.link[b-4k2hg2hqew]{
+    margin-bottom: 30px;
+}
+}

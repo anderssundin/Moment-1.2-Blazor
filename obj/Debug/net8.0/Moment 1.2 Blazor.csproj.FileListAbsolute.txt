@@ -1038,4 +1038,5 @@ C:\Users\ander\OneDrive - Mittuniversitetet\Skrivbordet\Webbutveckling\_Termin 4
 C:\Users\ander\OneDrive - Mittuniversitetet\Skrivbordet\Webbutveckling\_Termin 4 VT24\DT 191G Webbutveckling med .NET\Moment 1.2 Blazor\Moment 1.2 Blazor\obj\Debug\net8.0\scopedcss\Layout\Header.razor.rz.scp.css
 C:\Users\ander\OneDrive - Mittuniversitetet\Skrivbordet\Webbutveckling\_Termin 4 VT24\DT 191G Webbutveckling med .NET\Moment 1.2 Blazor\Moment 1.2 Blazor\obj\Debug\net8.0\scopedcss\Pages\Home.razor.rz.scp.css
 C:\Users\ander\OneDrive - Mittuniversitetet\Skrivbordet\Webbutveckling\_Termin 4 VT24\DT 191G Webbutveckling med .NET\Moment 1.2 Blazor\Moment 1.2 Blazor\obj\Debug\net8.0\scopedcss\Pages\Konvertering.razor.rz.scp.css
-C:\Users\ander\OneDrive - Mittuniversitetet\Skrivbordet\Webbutveckling\_Termin 4 VT24\DT 191G Webbutveckling med .NET\Moment 1.2 Blazor\Moment 1.2 Blazor\obj\Debug\net8.0\scopedcss\Pages\Trafik.razor.rz.scp.css
+C:\Users\ander\OneDrive - Mittuniversitetet\Skrivbordet\Webbutveckling\_Termin 4 VT24\DT 191G Webbutveckling med .NET\Moment 1.2 Blazor\Moment 1.2 Blazor\obj\Debug\net8.0\scopedcss\Pages\Weather.razor.rz.scp.css
+C:\Users\ander\OneDrive - Mittuniversitetet\Skrivbordet\Webbutveckling\_Termin 4 VT24\DT 191G Webbutveckling med .NET\Moment 1.2 Blazor\Moment 1.2 Blazor\obj\Debug\net8.0\scopedcss\Komponenter\Temperatur.razor.rz.scp.css

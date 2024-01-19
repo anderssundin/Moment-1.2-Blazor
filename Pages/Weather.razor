@@ -1,0 +1,74 @@
+@page "/weather"
+
+<h1>Vädret i Falun</h1>
+@if (weatherResponse != null)
+{
+    <h3>Mätstation: @weatherResponse.Name</h3>
+    <section>
+        <div class="bubble">
+            <p>Vindhastighet</p>
+
+            <p>@weatherResponse.Wind.Speed m/s</p>
+        </div>
+        <div class="bubble">
+            <p>Temperatur</p>
+            <p>@weatherResponse.Main.Temp °C</p>
+        </div>
+        <div class="bubble">
+            <p>Luftfuktighet</p>
+            <p>@weatherResponse.Main.Humidity%</p>
+        </div>
+        <div class="bubble">
+            <p>Vädret</p>
+            <p>@weatherResponse.Weather[0].Description</p>
+        </div>
+    </section>
+}
+else
+{
+    <p>Laddar mätdata...</p>
+}
+
+
+
+
+@code {
+    @inject HttpClient Http;
+
+    private WeatherResponse? weatherResponse;
+
+    protected override async Task OnInitializedAsync()
+    {
+        weatherResponse = await
+        Http.GetFromJsonAsync<WeatherResponse>("https://api.openweathermap.org/data/2.5/weather?lat=60.512246783300775&lon=15.713584189044955&appid=c8c86723106ab4132f4983234bad5e95&units=metric");
+
+    }
+
+    // Skapar modell för att spara temp och från api->main->temp
+    public class WeatherResponse
+    {
+        public Main? Main { set; get; }
+        public Wind? Wind { set; get; }
+
+        public InWeather[]? Weather { set; get; }
+        public string? Name { get; set; }
+    }
+
+    public class Main
+    {
+        public double? Temp { set; get; }
+        public double? Humidity { set; get; }
+
+    }
+
+    public class Wind
+    {
+        public double? Speed { get; set; }
+    }
+    public class InWeather
+    {
+        public string? Description { get; set; }
+    }
+
+
+}
